@@ -1,4 +1,4 @@
-function selectionSort(arr) {
+function selectionSort(arr: any) {
     let menor = 0;
     let arrLength = arr.length
     for (let i = 0; i < arrLength - 1; i++) {
